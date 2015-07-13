@@ -47,3 +47,7 @@ set number
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
+"set backup
+"set backupdir=~/.vim/backup
+set nobackup
