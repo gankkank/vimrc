@@ -51,3 +51,6 @@ set expandtab
 "set backup
 "set backupdir=~/.vim/backup
 set nobackup
+
+"set paste
+set pastetoggle=<F10>
