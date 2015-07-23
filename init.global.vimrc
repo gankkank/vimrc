@@ -30,6 +30,8 @@ Plugin 'altercation/vim-colors-solarized'
 " 
 "source ~/.vim/rc/powerline.vimrc
 source ~/.vim/rc/airline.vimrc
+source ~/.vim/rc/number.vimrc
+source ~/.vim/rc/paste.vimrc
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -42,8 +44,6 @@ syntax enable
 set background=light
 colorscheme solarized
 
-set number
-
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -51,7 +51,3 @@ set expandtab
 "set backup
 "set backupdir=~/.vim/backup
 set nobackup
-
-
-"set paste
-set pastetoggle=<F10>
