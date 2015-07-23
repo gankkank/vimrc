@@ -16,7 +16,7 @@ setup_global() {
     git clone https://github.com/gmarik/Vundle.vim.git /etc/vim/custom/bundle/Vundle.vim
   fi
 
-  vim +PluginInstall +qall
+  (vim +PluginInstall +qall)
 }
 
 setup_local() {
@@ -33,7 +33,7 @@ setup_local() {
     git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
   fi
 
-  vim +PluginInstall +qall
+  (vim +PluginInstall +qall)
 }
 
 
